@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bagian Bagian Table di HTML</title>
+</head>
+
+<style>
+    thead {
+        background-color: red;
+    }
+    tbody {
+        background-color: green;
+    }
+    tfoot {
+        background-color: yellow;
+    }
+</style>
+<body>
+    <h1>Tabel dengan menggunakan thead, tbody, tfoot</h1>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>No</th>
+                <th>Nama Barang</th>
+                <th>Harga Satuan</th>
+                <th>Jumlah</th>
+                <th>Total</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1</td>
+                <td>Telur</td>
+                <td>Rp. 1000</td>
+                <td>2</td>
+                <td>Rp. 2000</td>
+            </tr>
+            <tr>
+                <td>2</td>
+                <td>Sawi</td>
+                <td>Rp. 500</td>
+                <td>2</td>
+                <td>Rp. 1000</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Total</td>
+                <td colspan="4" style="text-align: right;">Rp. 3000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>

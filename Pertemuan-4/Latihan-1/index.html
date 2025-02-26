@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar Javascript di DuniaIlkom</title>
+    <script type="text/javascript">
+        function tambahSemangat(){
+            var a = document.getElementById("divSemangat");
+            a.innerHTML+="<p>Sedang Belajar Javascript, Semangat ..... !!!</p>";
+        }
+    </script>
+</head>
+<body>
+    <h1>Belajar Javascript</h1>
+    <p> Saya sedang belajar javascript di DuniaIlkom.com</p>
+    Klik tombol ini untuk menambahkan kalimat baru : 
+    <button id="tambah" onclick="tambahSemangat()">Semangat .. !!</button>
+    <div id="divSemangat"></div>
+</body>
+</html>
